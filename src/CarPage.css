@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.CarPage {
+    display: flex;
+    background-color: #f2f4ff;
+    min-height: 950px;
+}
+
+.container1 {
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 1040px;
+}
+
+#photo {
+    overflow: hidden;
+    max-width: 800px;
+    margin: 15px 10px;
+    border-radius: 15px;
+}
+
+.opis {
+    width: 96%;
+    margin: 15px 10px;
+    border-radius: 15px;
+}
+
+#model_page {
+    font-family: 'Circe', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #3bce67;
+}
+
+#price_page {
+    font-family: 'Circe', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+
+.kartochki1 {
+    /* display: flex; */
+    display: block;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.opis2 {
+    width: 96%;
+    margin: 15px 10px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-family: 'Circe', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    /* color: #000000; */
+}
+
+
+#Page hr {
+    border-top: 0px solid rgba(175, 175, 175, 0.082);
+    width: 100%;
+}
+
+#description {
+    display: block;
+    padding: 30px 50px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px 0;
+    font-family: 'Circe', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+

@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    background-color: #f2f4ff;
+    min-height: 955px;
+}
+
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 1040px; 
+}
+
+li {
+    overflow: hidden;
+    max-height: 190px;
+    width: 1040px;
+    margin: 15px 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.kartochki {
+    display: flex;
+    cursor: pointer;
+}
+
+.kartochki :hover .model{
+    text-decoration: underline;
+}
+
+.kartochki_opis  {
+    padding: 10px 10px;
+    width: 96%;
+}
+
+#button_delete {
+    display: flex;
+    justify-content: space-between;
+}
+
+.model {
+    font-size: 20px;
+    color: rgb(15, 79, 255);
+}
+
+.fon {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0%; 
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-okno {
+    position: fixed;
+    background-color: #f2f4ff;
+    padding: 50px;
+    top: 20px;
+    left: 30%;
+    height: 100%;
+    align-items: center;
+    width: 600px;
+    height: 800px;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+form {
+    display: flex;
+    flex-Direction: column;
+    row-gap: 20px;
+    
+}
+
+input {
+    width: 80%;
+    height: 25px;
+    display: block;
+}
+
+.textarea {
+    width: 70%;
+    height: 100px;
+    display: block;
+}
+
+#price {
+    font-family: 'Circe', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.btn_car {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color: blue;
+}
+
+.btn_car button{
+    padding: 5px 10px;
+    background-color: #ffffff;
+    font-family: 'Circe', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_car button:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+hr {
+    border-top: 0px solid rgba(175, 175, 175, 0.082);
+    width: 750px;
+}
