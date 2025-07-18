@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/car-sell/static/css/main.3edbad9a.css",
-    "main.js": "/car-sell/static/js/main.276e430c.js",
+    "main.js": "/car-sell/static/js/main.cd72f169.js",
     "index.html": "/car-sell/index.html",
     "main.3edbad9a.css.map": "/car-sell/static/css/main.3edbad9a.css.map",
-    "main.276e430c.js.map": "/car-sell/static/js/main.276e430c.js.map"
+    "main.cd72f169.js.map": "/car-sell/static/js/main.cd72f169.js.map"
   },
   "entrypoints": [
     "static/css/main.3edbad9a.css",
-    "static/js/main.276e430c.js"
+    "static/js/main.cd72f169.js"
   ]
 }
